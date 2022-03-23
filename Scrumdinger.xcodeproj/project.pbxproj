@@ -15,6 +15,8 @@
 		3F3B5A4327E9845500F16F89 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B5A4227E9845500F16F89 /* DailyScrum.swift */; };
 		3F3B5A4527E9858200F16F89 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B5A4427E9858200F16F89 /* CardView.swift */; };
 		3F3B5A4727E986C600F16F89 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B5A4627E986C600F16F89 /* TrailingIconLabelStyle.swift */; };
+		3F3B5A4927EADEA400F16F89 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B5A4827EADEA400F16F89 /* ScrumsView.swift */; };
+		3F3B5A4C27EAE45600F16F89 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B5A4B27EAE45600F16F89 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		3F3B5A4227E9845500F16F89 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		3F3B5A4427E9858200F16F89 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3F3B5A4627E986C600F16F89 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		3F3B5A4827EADEA400F16F89 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		3F3B5A4B27EAE45600F16F89 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				3F3B5A3027E97B4E00F16F89 /* Scrumdinger */,
+				3F3B5A4A27EAE45600F16F89 /* LICENSE */,
 				3F3B5A2F27E97B4E00F16F89 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +68,7 @@
 				3F3B5A3127E97B4E00F16F89 /* ScrumdingerApp.swift */,
 				3F3B5A3327E97B4E00F16F89 /* MeetingView.swift */,
 				3F3B5A4427E9858200F16F89 /* CardView.swift */,
+				3F3B5A4827EADEA400F16F89 /* ScrumsView.swift */,
 				3F3B5A4627E986C600F16F89 /* TrailingIconLabelStyle.swift */,
 				3F3B5A3527E97B4E00F16F89 /* Assets.xcassets */,
 				3F3B5A3727E97B4E00F16F89 /* Preview Content */,
@@ -85,6 +91,14 @@
 				3F3B5A4227E9845500F16F89 /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3F3B5A4A27EAE45600F16F89 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B5A4B27EAE45600F16F89 /* LICENSE.txt */,
+			);
+			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3B5A4C27EAE45600F16F89 /* LICENSE.txt in Resources */,
 				3F3B5A3927E97B4E00F16F89 /* Preview Assets.xcassets in Resources */,
 				3F3B5A3627E97B4E00F16F89 /* Assets.xcassets in Resources */,
 			);
@@ -160,6 +175,7 @@
 				3F3B5A4327E9845500F16F89 /* DailyScrum.swift in Sources */,
 				3F3B5A4727E986C600F16F89 /* TrailingIconLabelStyle.swift in Sources */,
 				3F3B5A4127E9829C00F16F89 /* Theme.swift in Sources */,
+				3F3B5A4927EADEA400F16F89 /* ScrumsView.swift in Sources */,
 				3F3B5A3427E97B4E00F16F89 /* MeetingView.swift in Sources */,
 				3F3B5A3227E97B4E00F16F89 /* ScrumdingerApp.swift in Sources */,
 				3F3B5A4527E9858200F16F89 /* CardView.swift in Sources */,
@@ -303,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jrai.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -332,7 +348,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jrai.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
